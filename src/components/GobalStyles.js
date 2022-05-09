@@ -1,9 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap')
-
-
     * {
         box-sizing: border-box;
         margin:0;
@@ -15,11 +12,12 @@ export const GlobalStyle = createGlobalStyle`
         color: #000;
         font-size: 1.15em;
         font-family: 'Poppins', sans-serif;
+        margin:0;
+        @media (max-width:768px){
+            padding: 0px 20px;
+        }
     }
 
-    li { 
-        font-weight: 100;
-    }
 
   img {
         max-width: 100%;
