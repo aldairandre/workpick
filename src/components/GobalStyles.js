@@ -13,9 +13,6 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1.15em;
         font-family: 'Poppins', sans-serif;
         margin:0;
-        @media (max-width:768px){
-            padding: 0px 20px;
-        }
     }
 
 

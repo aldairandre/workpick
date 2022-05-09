@@ -1,6 +1,8 @@
-import Body from "./components/body";
 import { GlobalStyle } from "./components/GobalStyles";
 import Header from "./components/header";
+import Body from "./components/body";
+import Footer from "./components/footer";
+
 
 export default function App() {
   return (
@@ -8,6 +10,7 @@ export default function App() {
       <GlobalStyle/>
       <Header></Header>
       <Body></Body>
+      <Footer></Footer>
     </>
   )
 }

@@ -13,7 +13,7 @@ const StyleForm = styled.form`
 
 const StyleInput = styled.input`
     @media(max-width:768px){
-        width:40%;
+        width: 37%;
         margin: 1rem 0px;
         padding: 15px;
         font-weight: 900;
@@ -22,19 +22,19 @@ const StyleInput = styled.input`
         color: black;
     }
     @media(max-width:425px){
-        width:73%;
+        width:65%;
     }
     @media(max-width:375px){
-        width:85%;
+        width:75%;
     }
     @media(max-width:320px){
-        width:100%;
+        width:85%;
     }
 `
 
 const StyleInputSubmit = styled.input`
     @media(max-width:768px){
-        width:30%;
+        width:33%;
         margin: 1rem 0px;
         padding: 15px;
         font-weight: 900;
@@ -45,13 +45,13 @@ const StyleInputSubmit = styled.input`
         background:  #000;
     }
     @media(max-width:425px){
-        width:63%;
+        width:60%;
     }
     @media(max-width:375px){
-        width:75%;
+        width:65%;
     }
     @media(max-width:320px){
-        width:90%;
+        width:72%;
     }
 `
 

@@ -15,7 +15,7 @@ const StyleSubTitle2 = styled(StyleSubTitle)`
         margin: 60px 0;
     }
     @media(min-width:375px){
-        padding: 0 30px;
+        padding: 0px 47px;
     }
 `
 
