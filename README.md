@@ -49,7 +49,7 @@ CSS
 - Your page should look as close as possible to the visual design.<br>
 - Your page should be responsive<br>
 
-<img src="design/desktop.png" width="380">
+<img src="./public/design/desktop.png" width="380">
 
 - Você pode encontrar o design aqui: <a href="https://www.figma.com/file/m95CWMbgT372P5ytrlSluF/Work-Plin?node-id=0%3A1">Figma</a>
 - You can find the design here: <a href="https://www.figma.com/file/m95CWMbgT372P5ytrlSluF/Work-Plin?node-id=0%3A1">Figma</a>
