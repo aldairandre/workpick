@@ -5,7 +5,7 @@ export default function Header() {
     <StyleHeader>
       <Container>
         <StyleNav>
-          <StyleTitle>Work<StyleSpan>pick</StyleSpan></StyleTitle>
+          <StyleTitle>Work <StyleSpan>pick</StyleSpan></StyleTitle>
           <StyleUl>
             <li>About</li>
             <li>Places</li>
