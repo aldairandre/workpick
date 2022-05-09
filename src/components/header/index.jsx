@@ -1,11 +1,11 @@
-import {StyleHeader, Container, StyleNav, StyleUl, StyleSpan} from './styleHeader' 
+import {StyleHeader, Container, StyleNav, StyleUl, StyleSpan, StyleTitle} from './styleHeader' 
 
 export default function Header() {
   return (
     <StyleHeader>
       <Container>
         <StyleNav>
-          <h1>Work<StyleSpan>pick</StyleSpan></h1>
+          <StyleTitle>Work<StyleSpan>pick</StyleSpan></StyleTitle>
           <StyleUl>
             <li>About</li>
             <li>Places</li>
