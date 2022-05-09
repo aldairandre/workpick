@@ -39,7 +39,7 @@ const StyleUl = styled.ul`
   font-size: 1.5rem;
   @media(max-width:768px){
     flex-direction: column;
-    height: 91px;
+    height: auto;
     align-items: center;
     justify-content: space-between;
     margin-top: 13px;
