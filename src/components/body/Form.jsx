@@ -18,7 +18,6 @@ const StyleInput = styled.input`
         padding: 15px;
         font-weight: 900;
         font-size: 1.2rem;
-        text-align: center;
         border-radius: 1rem;
         color: black;
     }
