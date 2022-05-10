@@ -24,6 +24,10 @@ const StyleSpan = styled.span`
 
 const StyleNav = styled.nav`
   display: flex;
+  @media(max-width: 1024px){
+    justify-content: space-between;
+    align-items: center;
+  }
   @media (max-width: 768px){
     flex-direction: column;
     align-items: center;
@@ -37,6 +41,11 @@ const StyleUl = styled.ul`
   padding: 0;
   font-weight: 300;
   font-size: 1.5rem;
+  @media(max-width: 1024px){
+    width:30%;
+    justify-content: space-between;
+    font-size: 1.2rem;
+  }
   @media(max-width:768px){
     flex-direction: column;
     height: auto;

@@ -10,15 +10,7 @@ const StyleFooter = styled.footer`
       flex-direction: column;
       margin-top: 8rem;
       padding: 3rem 0;
-    }
-    @media(max-width:425px){
-        
-    }
-    @media(max-width:375px){
-
-    }
-    @media(max-width:320px){
-        
+      align-items: center;
     }
 `
 
