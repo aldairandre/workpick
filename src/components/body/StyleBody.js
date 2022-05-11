@@ -29,7 +29,7 @@ const StyleSubTitle2 = styled(StyleSubTitle)`
     }
 
     @media(max-width:375px){
-        padding: 0px 3px;
+        padding: 0px 22px;
     }
     @media(max-width:320px){
         padding: 0px 0px;
@@ -75,9 +75,6 @@ const Img = styled.img`
     }
     @media(max-width:768px){
         width:69%;
-    }
-    @media(max-width:425px){
-        width:100%;
     }
 `
 
