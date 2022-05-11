@@ -14,6 +14,8 @@
 
 # Welcome :
 
+Online: https://workplin-landing-page.netlify.app/
+
 Esse projeto foi criado para você que está iniciando, assim como eu! <br><br>
 This project was made for begginers, just like me!
 
