@@ -24,13 +24,13 @@ Your challenge is to build a landing page for a coworking space
 
 # Techs:
 
-React
-
+React</br>
+Styled Components
 # Getting start:
 
 ```
   git clone https://github.com/aldairandre/workplin.git
-  cd worplin 
+  cd workplin 
   yarn install
   Acessar a no seu navegador http://localhost:3000/ 
 ```
@@ -56,5 +56,5 @@ Mobile: 320px
 
 
 
-Designed and created by <a href="https://github.com/lubomfim">Lucas</a> :)
+Designed and created by <a href="https://github.com/lubomfim">Lucas</a> :)</br>
 Coding by <a href="https://www.linkedin.com/in/aldair-andre-8b655b213/">Aldair Andre</a> :)
