@@ -6,6 +6,13 @@ const StyleFooter = styled.footer`
     width:100%;
     display: flex;
     background: #6C63FF;
+    @media(min-width:1024px){
+      flex-direction: row-reverse;
+      justify-content:space-between;
+      align-items:center;
+      padding:2rem 9%;
+      margin-top:5rem;
+    }
     @media(max-width:768px){
       flex-direction: column;
       margin-top: 8rem;
@@ -15,12 +22,16 @@ const StyleFooter = styled.footer`
 `
 
 const StyleTitleFoote = styled(StyleSubTitle2)`
-  margin-top: 0px;
+  margin:0; 
   padding:0;
+  @media(min-width:1024px){
+    width:auto;
+  }
 `
 
 const StyleFooterUl = styled(StyleUl)`
   font-weight: 600;
+  flex-direction: column;
 `
 
 export default function Footer() {

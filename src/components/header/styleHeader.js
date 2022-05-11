@@ -1,13 +1,11 @@
 import styled  from "styled-components"
 
 const StyleHeader = styled.header`
-  width:100%;
-  padding: 20px 0; 
+  padding: 20px 0px;
 `
 
 const Container = styled.div`
-  width:1000px;
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
 `
 
@@ -24,11 +22,11 @@ const StyleSpan = styled.span`
 
 const StyleNav = styled.nav`
   display: flex;
-  @media(max-width: 1024px){
+  @media(min-width: 1024px){
     justify-content: space-between;
     align-items: center;
   }
-  @media (max-width: 768px){
+  @media (max-width: 1023px){
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -41,17 +39,18 @@ const StyleUl = styled.ul`
   padding: 0;
   font-weight: 300;
   font-size: 1.5rem;
-  @media(max-width: 1024px){
+  @media(min-width: 1024px){
     width:30%;
     justify-content: space-between;
     font-size: 1.2rem;
   }
-  @media(max-width:768px){
+  @media(max-width:1023px){
     flex-direction: column;
     height: auto;
     align-items: center;
     justify-content: space-between;
     margin-top: 13px;
+    height: 100px;
   }
 `
 
