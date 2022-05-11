@@ -5,8 +5,8 @@ export default function Body() {
   return (
     <>
         <Banner>
-            <StyleSubTitle2 as='h2'><StyleSpan>Everything</StyleSpan> in one click.</StyleSubTitle2>
-            <Img src='/img/illustration.png' alt=''/>
+            <StyleSubTitle2 as='h2' className='conteiner-img animate__animated animate__fadeInRight animate__delay-1s'><StyleSpan>Everything</StyleSpan> in one click.</StyleSubTitle2>
+            <Img src='/img/illustration.png' alt='' className='conteiner-img animate__animated animate__fadeInLeft animate__delay-1s'/>
         </Banner>
         <StyleSubTitle3 as='h3'>Find your <StyleSpan>plin</StyleSpan>!</StyleSubTitle3>
         <MyForm/>

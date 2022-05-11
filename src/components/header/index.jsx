@@ -2,7 +2,7 @@ import {StyleHeader, Container, StyleNav, StyleUl, StyleSpan, StyleTitle} from '
 
 export default function Header() {
   return (
-    <StyleHeader>
+    <StyleHeader className='animate__animated animate__fadeInDown animate__delay-1s'>
       <Container>
         <StyleNav>
           <StyleTitle>Work <StyleSpan>plin</StyleSpan></StyleTitle>
