@@ -58,7 +58,7 @@ const Banner = styled.div`
     @media(min-width:1024px){
         max-width: 90%;
         justify-content: space-between;
-        margin: 10rem auto;
+        margin: 4rem auto;
     }
     @media(max-width:768px){
         flex-direction: column;

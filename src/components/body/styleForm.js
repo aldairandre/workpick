@@ -5,7 +5,7 @@ const StyleForm = styled.form`
         display: grid;
         grid-template-columns: 50% 50%;
         width:1000px;
-        max-width: 66%;
+        max-width: 50%;
         margin: 0 auto;
         column-gap: 2rem;
     }
@@ -67,7 +67,7 @@ const InputSub = styled(InputData)`
     font-weight:900;
     width: 70%;
     margin: 40px auto;
-    @media(max-width:1024px){
+    @media(min-width:1024px){
         width: 50%;
         padding: 1rem;
     }
